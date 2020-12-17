@@ -1,4 +1,9 @@
 nav.navbar {
     margin-bottom: 0;
   }
-  
+#colorNavSearch{
+  color: #081C15;
+}
+#colorNavSave{
+  color:#2D6A4F
+}
