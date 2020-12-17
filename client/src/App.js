@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-// import SaveBooks from "./pages/SaveBooks";
+import SavePage from "./pages/SavePage";
 import SearchBooks from "./pages/Search";
 import MyNav from "./components/MyNav";
 import "./App.css"
@@ -14,6 +14,7 @@ function App() {
         <Switch>
           <Route exact path="/" component={SearchBooks} />
           <Route exact path="/Search" component={SearchBooks}/>
+          <Route exact pathe="/Save" component={SavePage}/>
     
         </Switch>
         {/* <Footer /> */}
