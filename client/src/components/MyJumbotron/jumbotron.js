@@ -5,7 +5,7 @@ import "./jumbotron.css"
 
 const MyJumbotron= (props)=>{
     return(
-        <Jumbotron fluid>
+        <Jumbotron id="bg" fluid>
   <Container>
     <h1>{props.title}</h1>
     <p>
