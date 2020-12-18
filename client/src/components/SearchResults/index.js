@@ -29,7 +29,9 @@ props.books.map(book=>{
     <Card.Text>
       {book.description}
     </Card.Text>
-    <Button variant="success">Save Book</Button>
+    <Button className="saveBook btn btn-primary" 
+    id={book.id} onClick={(event) => props.handleSavedButton(event)} 
+    variant="success">Save Book</Button>
   </Card.Body>
 </Card>)}
                             )
