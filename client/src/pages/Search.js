@@ -84,7 +84,7 @@ class SearchBooks extends Component {
                 </Container>
                 <br></br>
                 <Container>
-                    <SearchResults books={this.state.books}  />
+                    <SearchResults books={this.state.books} handleSavedButton={this.handleSavedButton}  />
                 </Container>
             </Container>
         )
