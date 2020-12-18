@@ -1,6 +1,8 @@
 {
   "name": "googlelibrary",
   "version": "1.0.0",
+  "engines": {
+    "node": "12.x"}
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "server.js",
   "dependencies": {
